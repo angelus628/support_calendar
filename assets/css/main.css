@@ -1,0 +1,34 @@
+.login-form,.load-form {
+    margin-top:5em;
+}
+.inputfile {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label.btn-file {
+    cursor: pointer; /* "hand" pointer */
+}
+.inputfile:focus + label.btn-file {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label.btn-file * {
+    pointer-events: none;
+}
+
+table tr td:first-child {
+    background-color: #dc3545 !important;
+}
+
+table tr td:nth-child(7) {
+    background-color: #ffc107 !important;
+}
+
+td.bg-primary {
+    color: #fff;
+    font-weight: bolder;
+}
